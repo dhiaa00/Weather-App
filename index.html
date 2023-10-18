@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <i class="fa-solid fa-moon mood"></i>
+      <img src="images/day.png" alt="" />
+      <div class="temp">00°C</div>
+      <div class="city">No City</div>
+      <div class="search">
+        <input type="search" placeholder="Enter a city name" /><i
+          class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="properties">
+        <div class="humidity prop">
+          <i class="fa-solid fa-droplet"></i>
+          <div class="info">
+            <h3>Humidity</h3>
+            <div class="value">00%</div>
+          </div>
+        </div>
+        <div class="wind prop">
+          <i class="fa-solid fa-wind"></i>
+          <div class="info">
+            <h3>Wind-speed</h3>
+            <div class="value">00 m/s</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
